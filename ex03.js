@@ -12,7 +12,7 @@ let a = 3, b = 2, result;
 function triple(x){
     return x * 3; 
 }
-triple(x);
+triple();
 
 function affiche(){
     document.getElementById('jaffiche').innerHTML = triple(a) +'<br>'; 
