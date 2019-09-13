@@ -22,7 +22,7 @@ function surfaceRectagle(){
     largeur = parseInt(prompt('Entrez une largeur. Expl: 8'));
 
     surface = longueur * largeur;
-    document.getElementById('lasurface').innerHTML = surface;
+    document.getElementById('lasurface').innerHTML = 'La surface est: ' + surface;
 }
 surfaceRectagle()
 
@@ -33,6 +33,6 @@ function perimRectangle(){
     larg = parseInt(prompt('Entrez une largeur. Expl: 12'));
     perimetre = (long + larg) * 2;
 
-    document.getElementById('leperim').innerHTML = perimetre;
+    document.getElementById('leperim').innerHTML = 'Le périmètre est: ' + perimetre;
 }
 perimRectangle()
