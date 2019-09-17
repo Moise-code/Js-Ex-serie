@@ -11,7 +11,7 @@ function somme(){
     nbr2 = parseInt(prompt('Entrez un deuxième nombre'));
     nbr3 = parseInt(prompt('Entrez un troisième nombre'));
 
-    for(i=0; i<3; i++){
+    for(let i=0; i<3; i++){
         lasomme = nbr1 + nbr2 + nbr3;
         document.getElementById('plus').innerHTML = 'La somme de ' + nbr1 +' + '+nbr2+' + '+nbr3+' = ' + lasomme;
     }
